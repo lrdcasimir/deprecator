@@ -1,0 +1,6 @@
+build map of selector to rule/elements
+order map by selector specificity
+flag deprecated styles
+if elements consume deprecated style add consumes_deprecated class
+if a matching non-deprecated selector with greater specificity/priority provides the deprecated prop then remove deprecated class
+add overlay to deprecated classes
